@@ -8,18 +8,28 @@ BERT model loading 🧠
 Text encoding / classification 🔤
 Embedding generation 📊
 API integration with MDFJ Models Hub 🌐
+
+
 🧠 What BERT does
 BERT is a bidirectional transformer model designed for understanding text.
 It is mainly used for:
 Text classification
 Question answering
 Semantic embeddings
+
+
 📂 Structure
 bert/ ├── model/ ├── tokenizer/ ├── inference.py ├── loader.py └── README.md 
+
+
 ⚙️ Integration Flow
 Input text → Tokenizer → BERT model → Output embeddings/classification 
+
+
 📦 Example Output
 { "model": "bert", "input": "I love AI", "output": "positive", "task": "classification" } 
+
+
 ⚠️ Limitations
 Not a text generation model
 Requires preprocessing (tokenization)
